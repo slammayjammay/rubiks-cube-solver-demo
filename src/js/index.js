@@ -1,4 +1,4 @@
-import solver, { RubiksCube } from '../../../rubiks-cube-solver';
+import solver, { RubiksCube } from 'rubiks-cube-solver';
 
 class Demo {
 	constructor() {
