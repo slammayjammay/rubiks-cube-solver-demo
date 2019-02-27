@@ -4,7 +4,7 @@ const js = {
 	mode: 'development',
 	entry: `${__dirname}/src/js/index.js`,
 	output: {
-		path: `${__dirname}/dist`,
+		path: `${__dirname}/built-files`,
 		filename: 'index.js'
 	}
 };
@@ -13,7 +13,7 @@ const sass = {
 	mode: 'development',
 	entry: `${__dirname}/src/scss/index.scss`,
 	output: {
-		path: `${__dirname}/dist`,
+		path: `${__dirname}/built-files`,
 		filename: 'index.css'
 	},
 	module: {
