@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./built/index.css"></link>
+	</head>
+
+	<body>
+		<h1>Rubiks Cube Solver Demo</h1>
+		<p>Make sure the up face is <strong>white</strong> and the front face is <strong>green</strong>.</p>
+
+		<button class="button">scramble</button>
+
+		<div class="move-container move-container-scramble">
+			<p class="no-margin-bottom">Scramble moves with the up face as <strong>white</strong> and the front face as <strong>green</strong>:</p>
+			<span class="moves scramble-moves"></span>
+		</div>
+
+		<div class="move-container move-container-solve">
+			<p class="no-margin-bottom">Solve moves with the up face as <strong>white</strong> and the front face as <strong>green</strong>:</p>
+			<span class="moves"></span>
+
+			<ul class="partitions">
+				<li class="partition"><strong>Cross:</strong> <span class="moves moves-cross"></span></li>
+				<li class="partition"><strong>F2L:</strong> <span class="moves moves-f2l"></span></li>
+				<li class="partition"><strong>OLL:</strong> <span class="moves moves-oll"></span></li>
+				<li class="partition"><strong>PLL:</strong> <span class="moves moves-pll"></span></li>
+			</ul>
+		</div>
+
+		<div class="move-container move-container-solve-alt">
+			<p class="no-margin-bottom">Solve moves with the up face as <strong>yellow</strong> and the front face as <strong>green</strong>:</p>
+			<span class="moves"></span>
+
+			<ul class="partitions">
+				<li class="partition"><strong>Cross:</strong> <span class="moves moves-cross"></span></li>
+				<li class="partition"><strong>F2L:</strong> <span class="moves moves-f2l"></span></li>
+				<li class="partition"><strong>OLL:</strong> <span class="moves moves-oll"></span></li>
+				<li class="partition"><strong>PLL:</strong> <span class="moves moves-pll"></span></li>
+			</ul>
+		</div>
+
+		<script src="./built/index.js"></script>
+	</body>
+</html>

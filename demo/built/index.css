@@ -1,0 +1,17 @@
+.no-margin-bottom {
+  margin-bottom: 0; }
+
+.button {
+  font-size: 24px;
+  margin-bottom: 30px; }
+
+.move-container {
+  margin-bottom: 30px; }
+
+.moves {
+  font-size: 28px;
+  max-width: 70%;
+  display: inline-block;
+  vertical-align: top; }
+  .partition .moves {
+    font-size: 20px; }
